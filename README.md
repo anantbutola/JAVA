@@ -19,5 +19,5 @@ Make sure you have the following installed:
 
 - Java JDK 8 or higher
 - IDE like IntelliJ IDEA / Eclipse / VS Code
-- Git (optional)
+- Git 
 
