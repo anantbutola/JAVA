@@ -1,4 +1,4 @@
-package LinearSearching;
+
 
 public class MaxWealth {
     public static int maximumWealth(int[][] accounts) {

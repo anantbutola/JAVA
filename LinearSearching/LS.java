@@ -1,4 +1,4 @@
-package LinearSearching;
+
 
 public class LS {
 public static void main(String[] args) {

@@ -1,5 +1,5 @@
 package Arrays;
-import java.util.*;
+//import java.util.*;
 public class Array2d {
     public static void main(String[] args) {
         //Scanner in=new Scanner(System.in);
@@ -16,9 +16,11 @@ public class Array2d {
         // for (int i = 0; i < arr.length; i++) {
         //     System.out.println(Arrays.toString(arr[i]));
         // }
-        for(int[] a:arr){
-            System.out.println(Arrays.toString(a));
-        }
+        // for(int[] a:arr){
+        //     System.out.println(Arrays.toString(a));
+        // }
+    System.out.println(arr.length);
+    
     }
 
 }
