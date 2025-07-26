@@ -4,10 +4,11 @@ import java.util.Arrays;
 
 /*
     This matrix is rowwise and columnwise sorted!
-        |1 | 2| 3| 4|
-        |5 | 6| 7| 8|
-        |9 |10|11|12|
-        |13|14|15|16|
+          0  1  2  3
+       0 |1 | 2| 3| 4|
+       1 |5 | 6| 7| 8|
+       2 |9 |10|11|12|
+       3 |13|14|15|16|
  */
 
 public class Sorted2D {
@@ -18,7 +19,7 @@ int[][] matrix={
     {9,10,11,12},
     {13,14,15,16}
 };
-int target=15;
+int target=4;
   System.out.println(Arrays.toString(search(matrix, target)));
 
     }
@@ -29,9 +30,9 @@ int target=15;
             if (matrix[row][mid] == target) {
                 return new int[] { row, mid };
             } else if (matrix[row][mid] > target) {
-                Cstrt = mid + 1;
-            } else {
                 Cend = mid - 1;
+            } else {
+                Cstrt = mid + 1;
             }
         }
         return new int[] { -1, -1 };
@@ -69,16 +70,14 @@ int target=15;
         }      
 
         // now check 4 parts of 2 rows
-        if (matrix[Rstrt][Cmid-1]>=target) {
-            return new int[]{Rstrt,Cmid-1};
-        }else if (matrix[Rstrt][Cmid+1]<=target && target<=matrix[Rstrt][cols-1]) {
-            BS(matrix, target, Rstrt, Cmid+1, cols-1);
-        }else if (matrix[Rstrt+1][Cmid-1]>=target) {
-             return new int[]{Rstrt+1,Cmid-1};
+        if (target<=matrix[Rstrt][Cmid-1]) {
+             return BS(matrix, target, Rstrt, 0, Cmid-1);
+        }else if (target>=matrix[Rstrt][Cmid+1] && target<=matrix[Rstrt][cols-1]) {
+            return BS(matrix, target, Rstrt, Cmid+1, cols-1);
+        }else if (target<=matrix[Rstrt+1][Cmid-1]) {
+           return  BS(matrix, target, Rstrt+1, 0, Cmid-1);
         }else{
-            BS(matrix, target, Rstrt+1, Cmid+1, cols-1);
+           return  BS(matrix, target, Rstrt+1, Cmid+1, cols-1);
         }
-
-        return new int[]{-1,-1};
      }
 }

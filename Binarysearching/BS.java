@@ -5,12 +5,12 @@ public class BS {
     public static void main(String[] args) {
         int[] arr={2,4,5,7,9,11,15,19,22};
         int target=19;
-        int ans=BS(arr,target);
+        int ans=BinarySearch(arr,target);
         System.out.println(ans);
 
     }
 
-     static int BS(int[] arr, int target) {
+     static int BinarySearch(int[] arr, int target) {
         int str=0;
         int end=arr.length -1;
         while (str<=end) {
