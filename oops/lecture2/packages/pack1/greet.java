@@ -1,5 +1,5 @@
-package oops.packages.pack1;
-import static oops.packages.pack2.greet.welcome;
+package oops.lecture2.packages.pack1;
+import static oops.lecture2.packages.pack2.greet.welcome;
 public class greet {
     public static void main(String[] args) {
         System.out.println("Hi my name is anant");

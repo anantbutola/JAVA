@@ -1,4 +1,4 @@
-package oops;
+package oops.lecture2;
 
 public class staticKeyword {
     public static void main(String[] args) {

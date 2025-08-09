@@ -1,4 +1,4 @@
-package oops.packages.pack2;
+package oops.lecture2.packages.pack2;
 
 public class greet {
     public static void main(String[] args) {
