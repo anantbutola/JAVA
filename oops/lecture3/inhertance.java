@@ -1,14 +1,15 @@
 package oops.lecture3;
  class student{
     int rollno;
-    String name;
+    String name="anant";
     int age;
-    private long PhnoNo;
+    //private long PhnoNo;
     student(int rollno,String name,int age){
+        super();
         this.rollno=rollno;
         this.name=name;
         this.age=age;
-        this.PhnoNo=256671257;
+        //this.PhnoNo=256671257;
     }
     void greet(){
         System.out.println("Hi"+name +", Welcome in programming");
@@ -16,10 +17,12 @@ package oops.lecture3;
 }
  class studentID extends student{
   int id;
+  String name;
   
   studentID(int rollno,String name,int age,int id){
     super(rollno, name, age);     //Simply, calls the constructor of parent class
          this.id=id;
+       System.out.println(this.name);
          
   }
   void greet(){
@@ -33,7 +36,7 @@ public class inhertance {
        // student1.PhnoNo;
 
     //     System.out.println(student1.name+"-->"+student1.age+"-->"+student1.rollno+"-->"+student1.id);
-   student student1=new studentID(0, null, 0,0);
+   studentID student1=new studentID(0, null, 0,0);
    student1.greet();
    System.out.println(student1.age);
 }
@@ -68,7 +71,7 @@ public class inhertance {
 *Child class(studentID) access instance variables of its parent class.
 *(super) keyword: It is used to intialize values.It simply calls the constructor of parent class for intializing values.
    eg:   super(rollno, name, age);   It calls the constructor and assign rollno,age and name of student.
-         * Super Keyword always use inside the constructor...  
+         * Here,Super Keyword  use inside the constructor...  
 *How Derived class access Base class members?
  eg:
         studentID student1=new studentID(10, "Anant butola",21 , 2103363);
@@ -92,4 +95,15 @@ eg: private long PhnoNo;
       it only looks at object type.
 *Here superclass reference can point towards subclass object
 *but subclass reference cannot point towards superclass object
+
+
+More About (super)keyword:
+*Super keyword calls the constructor of base class to derived class.
+*If derived class inherits members from base class.It is must to call base class constructor in
+* The derived class constructor using (super)keyword.
+*Parent class has Object class above it.Therefore when we make parent_class constructor it automatically
+*calls the constructor of Object class.
+If there is two classes student and studentid,and having common instance variable (name) and we want to print name
+in derived class constructor.If we want to print derived class (name)instance use(this.name) and if we want to print parent class
+(name)instance use (super.name).
  */
