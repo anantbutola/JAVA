@@ -1,4 +1,4 @@
-package oops.assignments;
+
 abstract class School{
    int rollno;
    String name;

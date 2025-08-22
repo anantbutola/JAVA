@@ -1,4 +1,4 @@
-package oops.assignments;
+// package oops.assignments;
 
 class Human {
     String name; // non-static variable
