@@ -33,7 +33,7 @@ class BoxPrice extends Box{
   }
 }
 
-public class type {
+public class typeofInheritance {
     
 }
 
