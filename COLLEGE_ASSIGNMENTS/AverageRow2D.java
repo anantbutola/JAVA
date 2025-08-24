@@ -1,13 +1,16 @@
+package COLLEGE_ASSIGNMENTS;
+
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class AverageRow2D {
-    static int Average(int[][] arr ,int row){
-        int sum =0;
+    static float Average(int[][] arr ,int row){
+        float sum =0;
          for (int col = 0; col < arr[row].length; col++) {
             sum += arr[row][col];
          }
-         int average = sum / arr[row].length;
+         float average = sum / arr[row].length;
 
          return average;
     }
@@ -31,7 +34,7 @@ public class AverageRow2D {
         }
         System.out.println("");
         for (int i = 0; i < arr.length; i++) {
-            System.out.println("Average of Row : "+i+" is : "+Average(arr, i));
+            System.out.println("Average of Row : "+(i+1)+" is : "+Average(arr, i));
         }
     }
 }

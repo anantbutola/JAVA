@@ -1,3 +1,5 @@
+package COLLEGE_ASSIGNMENTS;
+
 // package oops.assignments;
 
 class Human {
@@ -33,6 +35,7 @@ public class StaticNonstatic {
       Human H1 =new Human("Anant");
       Human H2 =new Human("Maya");
       H1.greet();
+      H2.greet();
       Human.display();
       H1.show();
       H2.show();
