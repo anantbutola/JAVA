@@ -1,3 +1,5 @@
+package COLLEGE_ASSIGNMENTS;
+
 
 abstract class School{
    int rollno;
