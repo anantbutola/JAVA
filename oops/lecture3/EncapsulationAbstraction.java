@@ -5,7 +5,7 @@ public class EncapsulationAbstraction {
 }
 /*
  * Encapsulation 🗃️
- * Encapsulation is an implementation-level concept. Its primary purpose is to
+ Encapsulation is an implementation-level concept. Its primary purpose is to
  * protect an object's internal state and ensure data integrity. Think of it as
  * a protective capsule or a box. You can see the outside of the box, but you
  * can't see or touch what's inside directly. To interact with the contents, you
