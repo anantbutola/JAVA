@@ -2,13 +2,10 @@ package COLLEGE_ASSIGNMENTS;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
 /*
  ! WAP in Java to initialize a string in order to find that character
  !  which frequency is 2nd most in that string.
 */
-
-
 public class FrequencyChar {
     static ArrayList<Character> SecondHighestFrequency(String str){
         ArrayList<Character> unique = new ArrayList<>();

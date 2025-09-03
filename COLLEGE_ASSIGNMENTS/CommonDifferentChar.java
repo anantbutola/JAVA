@@ -56,7 +56,7 @@ public class CommonDifferentChar {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter 1st String :");
         String S1 = sc.next();
-        System.out.print("Enter 1st String :");
+        System.out.print("Enter 2nd String :");
         String S2 = sc.next();
 
         System.out.println("Common characters are :" + CommonChars(S1, S2));
