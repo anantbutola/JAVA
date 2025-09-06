@@ -15,12 +15,12 @@ package oops.lecture3;
 // }
 class car{ 
     
- static void show(){
+  void show(){
     System.out.println("CAR name Ferrari");
 }
 }
 class truck extends car{
-   static void show(){
+    void show(){
     System.out.println("Truck name Ashok ");
 }
 }

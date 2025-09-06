@@ -1,5 +1,7 @@
 package COLLEGE_ASSIGNMENTS;
 
+import java.util.Scanner;
+
 interface PrimeNoChecking {
     public boolean prime(int num);
 }
@@ -44,8 +46,11 @@ class NumberChecking implements PrimeNoChecking, ArmstrongNoChecking {
 
 public class NumberCheckInterface {
     public static void main(String[] args) {
+        System.out.print("Enter the number: ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
         NumberChecking num1 = new NumberChecking();
-        System.out.println(num1.armstrong(153));
-        System.out.println(num1.prime(15));
+        System.out.println("Armstrong Check: "+num1.armstrong(num));
+        System.out.println("Prime Check: "+num1.prime(num));
     }
 }

@@ -42,7 +42,7 @@ public class FrequencyChar {
     }
     public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
-     System.out.println("Enter the string : ");
+     System.out.print("Enter the string : ");
      String str = sc.next();
      System.out.println("2nd Highest Frequency characters in string : "+ SecondHighestFrequency(str));
     }

@@ -1,6 +1,6 @@
 
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class duplicateElementsInArray {
     public static int removeDuplicates(int[] nums) {
