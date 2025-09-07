@@ -7,11 +7,7 @@ class Solution {
         }
         String original=Integer.toString(x);
         String reversed=new StringBuilder(original).reverse().toString();
-        if (original.equals(reversed)) {
-            return true;
-        }else{
-            return false;
-        }
+        return original.equals(reversed);
        
     }
     public static void main(String[] args) {

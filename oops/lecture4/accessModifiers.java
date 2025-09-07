@@ -47,7 +47,7 @@ public class accessModifiers extends School{
  *                     of classes, fields, methods, and constructors.
  * There are four access modifiers: public, private, protected, and default (no keyword).
  * (1).PUBLIC: The public modifier grants the broadest access. A class, method, or field 
- *             declared as public is accessible from any other class, anywhere in the program.
+ *            declared as public is accessible from any other class, anywhere in the program.
  
 
  * (2).PRIVATE: The private modifier provides the most restrictive access. 

@@ -1,6 +1,6 @@
 import java.util.*;
  class firstcode{
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("Enter button");
         Scanner obj=new Scanner(System.in);
         int button=obj.nextInt();

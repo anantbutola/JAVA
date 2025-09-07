@@ -10,8 +10,8 @@ abstract class University{
    }
    abstract void display(); 
 }
-class Student extends University{
-    Student(long StudentId , String name){
+class Student2 extends University{
+    Student2(long StudentId , String name){
         super(StudentId, name);
     }
     void display(){
@@ -21,9 +21,9 @@ class Student extends University{
 }
 public class ABSTRACT {
     public static void main(String[] args) {
-        Student obj1 =new Student(2345167, "Rishita Aswal");
+        Student2 obj1 =new Student2(2345167, "Rishita Aswal");
         obj1.display();
-        Student obj2 =new Student(2178902, "Aabha");
+        Student2 obj2 =new Student2(2178902, "Aabha");
         obj2.display(); 
      }
 }

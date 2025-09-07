@@ -22,11 +22,7 @@ public static boolean checkEven(int num) {
     num=num/10;
     
   }
-  if (count%2==0) {
-    return true;
-  }else{
-    return false;
-  }
+    return count % 2 == 0;
   
 }
      

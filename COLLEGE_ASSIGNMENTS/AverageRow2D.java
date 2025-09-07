@@ -27,12 +27,12 @@ public class AverageRow2D {
                 arr[i][j] = sc.nextInt();
             }
         }
-        System.out.println("");
+        System.out.println();
         System.out.println("Matrix :");
         for (int i = 0; i < arr.length; i++) {
         System.out.println(Arrays.toString(arr[i]));     
         }
-        System.out.println("");
+        System.out.println();
         for (int i = 0; i < arr.length; i++) {
             System.out.println("Average of Row : "+(i+1)+" is : "+Average(arr, i));
         }

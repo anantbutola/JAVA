@@ -13,11 +13,7 @@ public class OrderAgnosticBS {
         int str=0;
         int end=arr.length -1;
         boolean asc;
-        if (arr[str]<arr[end]) {
-            asc=true;
-        }else{
-            asc=false;
-        }
+            asc= arr[str] < arr[end];
         if (asc) {
             while (str<=end) {
             int mid=str+(end-str)/2;

@@ -25,7 +25,7 @@ public class Sorted2D {
 
     }
 
-    static int[] BS(int matrix[][], int target, int row, int Cstrt, int Cend) {
+    static int[] BS(int[][] matrix, int target, int row, int Cstrt, int Cend) {
         while (Cstrt <= Cend) {
             int mid = Cstrt + (Cend - Cstrt) / 2;
             if (matrix[row][mid] == target) {

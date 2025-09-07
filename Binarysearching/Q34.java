@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Q34 {
     public static int[] searchRange(int[] nums, int target) {
-        int ans[]={-1,-1};
+        int[] ans ={-1,-1};
         ans[0]=Index1(nums, target);
         ans[1]=Index2(nums, target);
         return ans;

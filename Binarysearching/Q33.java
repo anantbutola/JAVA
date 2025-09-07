@@ -8,11 +8,7 @@ public class Q33 {
         int ans2=rightHalfIndex(nums, target);
         if (ans1!=-1) {
             System.out.println(ans1);
-        }else if (ans2!=-1) {
-            System.out.println(ans2);
-        }else{
-            System.out.println(-1);
-        }
+        }else System.out.println(ans2);
     }
     public static int pivot(int[] arr){
         int str=0;
@@ -27,7 +23,7 @@ public class Q33 {
         }
         return end;
     }
-    public static int leftHalfIndex(int arr[],int target){
+    public static int leftHalfIndex(int[] arr, int target){
         int str=0;
         int end=pivot(arr);
         while (end>=str) {
@@ -42,7 +38,7 @@ public class Q33 {
         }
         return -1;
     }
-    public static int rightHalfIndex(int arr[],int target){
+    public static int rightHalfIndex(int[] arr, int target){
         int str=pivot(arr)+1;
         int end=arr.length-1;
         while (end>=str) {

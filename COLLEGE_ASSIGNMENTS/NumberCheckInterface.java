@@ -3,11 +3,11 @@ package COLLEGE_ASSIGNMENTS;
 import java.util.Scanner;
 
 interface PrimeNoChecking {
-    public boolean prime(int num);
+    boolean prime(int num);
 }
 
 interface ArmstrongNoChecking {
-    public boolean armstrong(int num);
+    boolean armstrong(int num);
 }
 
 class NumberChecking implements PrimeNoChecking, ArmstrongNoChecking {
@@ -35,11 +35,7 @@ class NumberChecking implements PrimeNoChecking, ArmstrongNoChecking {
             sum = sum + (int) Math.pow(temp, count);
             num = num / 10;
         }
-        if (sum == temp2) {
-            return true;
-        } else {
-            return false;
-        }
+        return sum == temp2;
 
     }
 }

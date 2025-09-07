@@ -5,12 +5,12 @@ public class constructor {
         // Student anant=new Student(10, "Anant Butola", 99.9f);
         // System.out.println(anant.rollno);
         // System.out.println(anant.marks);
-        // System.out.println(anant.name);
-       Numbers set1=new Numbers(10, 20, 30);
-       //set1.greatest(0, 0, 0);
+    // System.out.println(anant.name);
+    Numbers set1=new Numbers(10, 20, 30);
+    //set1.greatest(0, 0, 0);
        set1.output();
 
-    }
+}
 }
 class Numbers{
     int i,j,k;

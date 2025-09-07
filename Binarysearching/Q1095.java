@@ -8,12 +8,7 @@ public class Q1095 {
         int ans2 = searchIndexrightHAlf(arr, target);
         if (ans1 != -1) {
             System.out.println(ans1);
-        } else if (ans2 != -1) {
-            System.out.println(ans2);
-        } else {
-            System.out.println(-1);
-
-        }
+        } else System.out.println(ans2);
     }
 
     public static int searchIndexleftHAlf(int[] arr, int target) {

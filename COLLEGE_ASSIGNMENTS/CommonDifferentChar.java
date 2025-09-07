@@ -12,14 +12,13 @@ public class CommonDifferentChar {
                     if (!common.contains(S1.charAt(i))) {
                         common.add(S1.charAt(i));
                     }
-
                 }
             }
         }
         return common;
     }
 
-    static ArrayList<Character> DiffrentChars(String S1, String S2) {
+    static ArrayList<Character> DifferentChars(String S1, String S2) {
         ArrayList<Character> different = new ArrayList<>();
         for (int i = 0; i < S1.length(); i++) {
             boolean found = false;
@@ -60,6 +59,6 @@ public class CommonDifferentChar {
         String S2 = sc.next();
 
         System.out.println("Common characters are :" + CommonChars(S1, S2));
-        System.out.println("Different characters are :" + DiffrentChars(S1, S2));
+        System.out.println("Different characters are :" + DifferentChars(S1, S2));
     }
 }
