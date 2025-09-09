@@ -1,3 +1,5 @@
+package Arrays.assignments;
+
 import java.util.Scanner;
 
 public class Find{

@@ -14,6 +14,6 @@ public class PackageSubpackage {
         B2 obj2 = new B2();
         obj2.Show();
         A obj = new A();
-        obj.reveal();
+        obj.print();
     }
 }

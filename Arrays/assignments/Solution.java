@@ -1,4 +1,4 @@
-
+package Arrays.assignments;
 
 class Solution {
     public static boolean isPalindrome(int x) {

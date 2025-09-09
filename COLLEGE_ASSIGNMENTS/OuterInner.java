@@ -9,19 +9,19 @@ class Student{
         this.rollno=rollno;
     }
     class Result{
-     float Maths,Physics,Chemistry;
-     Result(float Maths,float Physics,float Chemistry){
-        this.Maths=Maths;
-        this.Physics=Physics;
-        this.Chemistry=Chemistry;
-     }
-     public void displayResult(){
-        float total = this.Maths+this.Physics+this.Chemistry;
-        float percentage = total/3;
-        System.out.println("Student Name : "+ Student.this.name +"(Roll No.: "+Student.this.rollno +(")"));
-        System.out.println("Total Marks : "+total);
-        System.out.println("Percentage is : " + percentage);
-     }
+        float Maths,Physics,Chemistry;
+        Result(float Maths,float Physics,float Chemistry){
+            this.Maths=Maths;
+            this.Physics=Physics;
+            this.Chemistry=Chemistry;
+        }
+        public void displayResult(){
+            float total = this.Maths+this.Physics+this.Chemistry;
+            float percentage = total/3;
+            System.out.println("Student Name : "+ Student.this.name +"(Roll No.: "+Student.this.rollno +(")"));
+            System.out.println("Total Marks : "+total);
+            System.out.println("Percentage is : " + percentage);
+        }
     }
 }
 public class OuterInner {

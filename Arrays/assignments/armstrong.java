@@ -1,3 +1,5 @@
+package Arrays.assignments;
+
 public class armstrong {
     static int arms(int  num){
         int digits =num;

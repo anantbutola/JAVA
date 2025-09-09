@@ -1,4 +1,4 @@
-
+package Arrays.assignments;
 
 public class removeTarget {
      public static int removeElement(int[] nums, int val) {
