@@ -66,7 +66,10 @@
 ###
 
 <br clear="both">
-
-<img src="https://raw.githubusercontent.com/anantbutola/anantbutola/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anantbutola/JAVA/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anantbutola/JAVA/output/snake.svg">
+  <img alt="snake animation" src="https://raw.githubusercontent.com/anantbutola/JAVA/output/snake.svg">
+</picture>
 
 ###
