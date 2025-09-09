@@ -7,8 +7,25 @@
   </picture>
 </div>
 
-# 💫 About Me:
-🔭 I’m Computer Science Student<br>🌱 I’m currently learning JAVA<br>💬 Ask me about anything<br>
+<!-- About Me Section with GIF on Right -->
+<div style="overflow: hidden; margin-bottom: 30px;">
+
+  
+
+  <!-- Text on Left -->
+  <div>
+    <h1>💫 About Me:</h1>
+    <p>🔭 I’m a Computer Science Student<br>
+       🌱 I’m currently learning JAVA<br>
+       💬 Ask me about anything
+    </p>
+  </div>
+<!-- GIF on Right -->
+  <img src="https://media.giphy.com/media/IPHgtwOWk7xwta52n2/giphy.gif" 
+       alt="About Me GIF" 
+       style="float: right; width: 150px; margin-left: 20px; border-radius: 10px;"/>
+</div>
+
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/anantbutolaa) 
