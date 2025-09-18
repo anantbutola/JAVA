@@ -117,7 +117,7 @@ public class polymorphism {
   *   right side means object type determines which method should we access.    
   
   
-  *If we make a method to be "final" we can't overrride that metod further in child class.
+  *If we make a method to be "final" we can't overrride that method further in child class.
   *WHY?---->When a method is declared as final, it signals to the compiler and other developers 
   *that its implementation is the final version and should not be changed or altered in any subclass.
   

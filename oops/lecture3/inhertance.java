@@ -76,7 +76,7 @@ public class inhertance {
  eg:
         studentID student1=new studentID(10, "Anant butola",21 , 2103363);
         System.out.println(student1.name+"-->"+student1.age+"-->"+student1.rollno+"-->"+student1.id);
-*(Private) variables are variables are only available in respective class only.
+*(Private) variables are only available in respective class only.
 *We can't access private members in derived class or anywhere else.
 eg: private long PhnoNo;
 

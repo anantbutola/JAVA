@@ -28,7 +28,7 @@ class static_Initialization{
 //     int age;
 //     String name;
 //     boolean married;
-//     static int population;  // declaration of  static member
+//     static int population;  // declaration of  static member(also known as class variable)
 
 // Human(int age,String name,boolean married){
 //     this.age=age;
@@ -45,7 +45,7 @@ class static_Initialization{
  * static member create single copy of its own and shared among all instances of class.
  * static member should be accessed via class or objects but (Best convention is to use with classname).
  * static member only depends on class not on objects.
-  syntax:    class_name.instnce_variable; 
+  syntax:    class_name.instance_variable;
  */
 
  /*
