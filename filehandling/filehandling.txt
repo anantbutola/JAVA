@@ -1,0 +1,45 @@
+What Is File Handling in Java?
+
+File Handling in Java means reading from and writing to files stored on your computer’s disk — using Java’s I/O (Input/Output) streams.
+It allows your program to store data permanently, instead of keeping it only in memory (RAM).
+
+🧩 Types of File Streams in Java
+
+In Java, all input and output operations are done through streams.
+A stream is simply a flow of data — like water flowing through a pipe 💧
+
+Data can enter your program (input stream) or leave your program (output stream).
+
+| Type                      | Description                                                          |
+| ------------------------- | -------------------------------------------------------------------- |
+| **1️⃣ Byte Streams**      | Used for handling **binary data** (images, audio, video, PDFs, etc.) |
+| **2️⃣ Character Streams** | Used for handling **text data** (letters, characters, strings, etc.) |
+----------------------------------------------------------------------------------------------------
+
+ 1️⃣ Byte Streams
+-->Work with raw bytes (8-bit data).
+-->Suitable for non-text files like images, music, videos, and executable files.
+-->Classes are derived from:
+- InputStream (for input)
+- OutputStream (for output)
+
+2️⃣ Character Streams
+-->Work with 16-bit Unicode characters (text).
+-->Suitable for text files like .txt, .csv, or .java.
+-->Classes are derived from:
+- Reader (for input)
+- Writer (for output)
+
+                                      I/O
+                                       |
+                  --------------------------------------------
+                  |                                          |
+              BYTE STREAM                            CHARACTER STREAM
+                  |                                          |
+          -------------------                          -----------------------
+          |                  |                         |                     |
+     InputStream         OutputStream              Reader                  Writer
+-FileInputStream      -FileOutputStream          -InputStreamReader      -OutputStreamReader
+-BufferedInputStream  -BufferedOutputStream      -FileReader             -FileWriter
+-DataInputStream      -DataOutputStream          -BufferedReader         -BufferedWriter
+-ObjectInputStream    -ObjectOutputStream
