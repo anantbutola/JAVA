@@ -41,6 +41,7 @@ class static_Initialization{
  * Static variables:  If we make any member as static , it should be accessed before any objects of its class are created.
  *  We make variables as well as methods static.
  * most common eg is main() function
+ *
  * main() function should be accessed before creating object of that class.
  * static member create single copy of its own and shared among all instances of class.
  * static member should be accessed via class or objects but (Best convention is to use with classname).
@@ -52,7 +53,7 @@ class static_Initialization{
  WHY NON-STATIC METHODS AND VARIABLES NOT BE USED INSIDE STATIC VARIABLES AND METHODS?
   * static members only access static data.(depends on class only)
   * non-static members only depends on objects.
-  *  ->when static member is called ,may be there is no instance(object) of that class present.
+  *  ->when static member is called ,maybe there is no instance(object) of that class present.
   *  ->static method doesn't know which object variable or method you mean to use.
   eg: class MyClass {
     static int staticVar = 10;
@@ -80,8 +81,8 @@ class static_Initialization{
      
   /*
     STATIC MEMBERS USED INSIDE NON-STATIC MEMBERS
-   * B/c static members are belongs to class itself and always available inside it.It doesn't depends on instances.
-   * (this) keyword is non static b/c this represents object itself.Therefore  ,we can't use (this) inside static members
+   * B/c static members are belongs to class itself and always available inside it.It doesn't depend on instances.
+   * (this) keyword is non-static b/c this represents object itself.Therefore  ,we can't use (this) inside static members
    */
 
    /*

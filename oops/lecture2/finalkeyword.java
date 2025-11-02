@@ -31,7 +31,7 @@ class Student{
 
 /*
  *In primitive datatype, if we make any variable to final and assign value to it. It can't be reassign later in program.
- * It must be initialize and assign value if we use final keyword.It can't be only assign.
+ * It must be initialized and assign value if we use final keyword.It can't be only assign.
   Eg:    final int a=10;
  */
 /*
@@ -44,11 +44,11 @@ class Student{
          System.out.println(anant.name);      // throws compile time error
  */
 /*
- * In java , whenever object is created for destroying that object, destructor autmatically called.
+ * In java , whenever object is created for destroying that object, destructor automatically called.
  * Garbage Collector: If we create variable "a" that assign some value '10' and later we reassign that value to "20" then '30' and so on....
  * Garbage Collector removes that values from heap memory....
  * As we know that java not give permission to manually destroy the objects we created.
- * In c++, destroyer give message when it destroy the object.We can done that with java also using Finalze() method. 
+ * In c++, destroyer give message when it destroys the object.We can do that with java also using Finalize() method.
  * Garbage Collector calls this method before object is destroyed .
  eg: 
   @Override

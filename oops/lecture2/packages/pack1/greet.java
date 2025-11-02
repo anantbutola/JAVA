@@ -8,8 +8,8 @@ public class greet {
 }
 /*
  * As we can see that we create a package name folder in oops folder in which we create 2 folders named pack1 and pack2.
- * In both folders there there is sameclass name files there (greet.java).
- * Java not allow to create same name class files in single folder thats why we use concept of packages in there.
+ * In both folders there is same class name files there (greet.java).
+ * Java not allow to create same name class files in single folder that's why we use concept of packages in there.
  * Packages are simply folders.
  * Packages are containers for classes.They are used to keep the class name space compartmentalized.
  Eg:  package oops.packages.pack1;

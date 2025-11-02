@@ -13,17 +13,17 @@ class secondException extends RuntimeException{
 public class ExceptionLec1 {
     public static void main(String[] args) {
         int a =10;
-        int b=2;
-        int age=10;
-        age(age);
+        int b=0;
+//        int age=10;
+//        age(age);
         try {
-            division(a,b);
+            System.out.println(division(a,b));
 //            if (true){
 //                throw new myException("this exception name is anant");
 //            }
 //        age(age);
-        }catch (ArithmeticException e){
-            System.out.println(e);
+        }catch (myException e){
+            System.out.println(e.getMessage());
         }catch(Exception e) {
             System.out.println(e);
         }finally {
@@ -32,18 +32,18 @@ public class ExceptionLec1 {
 
 
     }
-    static int division(int a,int b) throws ArithmeticException{
+    static int division(int a,int b) throws  myException {
         if(b==0){
-            throw new ArithmeticException("denominator is zero");
+            throw new myException("denominator is zero");
         }
         return a/b;
     }
-    static void age(int age){
-        if(age<18){
-            throw  new secondException("Age must be greater than 18");
-        }
-        System.out.println("Valid age");
-    }
+//    static void age(int age){
+//        if(age<18){
+//            throw  new secondException("Age must be greater than 18");
+//        }
+//        System.out.println("Valid age");
+//    }
 }
 
 
@@ -78,7 +78,7 @@ finally block: this block always execute whether exception  occurs or not.
               only "one" in try-catch block.
 
 throw : explicitly throw  error inside method or block.
-        make a object of exception and use throw.
+        make an object of exception and use throw.
         Eg: if(age<18){
         throw new IllegalArgumentException("age must be greater than 18");
         }

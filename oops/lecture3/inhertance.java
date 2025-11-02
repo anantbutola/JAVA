@@ -99,9 +99,9 @@ eg: private long PhnoNo;
 
 More About (super)keyword:
 *Super keyword calls the constructor of base class to derived class.
-*If derived class inherits members from base class.It is must to call base class constructor in
+*If derived class inherits members from base class.It must call base class constructor in
 * The derived class constructor using (super)keyword.
-*Parent class has Object class above it.Therefore when we make parent_class constructor it automatically
+*Parent class has Object class above it.Therefore, when we make parent_class constructor it automatically
 *calls the constructor of Object class.
 If there is two classes student and studentid,and having common instance variable (name) and we want to print name
 in derived class constructor.If we want to print derived class (name)instance use(this.name) and if we want to print parent class
