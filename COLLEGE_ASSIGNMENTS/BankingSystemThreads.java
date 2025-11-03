@@ -43,10 +43,10 @@ public class BankingSystemThreads {
     public static void main() {
 Bank bank = new Bank(10000);
 users anant = new  users(bank,"anant");
-users rishita = new   users(bank,"rishita");
+users maya = new   users(bank,"maya");
 users ram =  new users(bank,"ram");
  anant.start();
- rishita.start();
+ maya.start();
  ram.start();
     }
 }
