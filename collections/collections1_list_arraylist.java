@@ -23,9 +23,8 @@ Example: The linkedlist class of the collections framework provdes the implement
     │
     └── Queue (interface)
         ├── PriorityQueue
-        └── Deque (interface)
-            ├── ArrayDeque
-            └── LinkedList
+        ├── ArrayDeque
+        └── LinkedList
 
 Map (interface)  ← separate hierarchy
 ├── HashMap
