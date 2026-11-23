@@ -1,9 +1,9 @@
-<svg width="1166" height="184" xmlns="http://www.w3.org/2000/svg"><desc>Generated with pacman-contribution-graph on Sun Nov 22 2026 18:47:36 GMT+0000 (Coordinated Universal Time)</desc><metadata>
+<svg width="1166" height="184" xmlns="http://www.w3.org/2000/svg"><desc>Generated with pacman-contribution-graph on Mon Nov 23 2026 04:36:26 GMT+0000 (Coordinated Universal Time)</desc><metadata>
 		<info>
 			<frames>87</frames>
 			<frameRate>5</frameRate>
 			<durationMs>17400</durationMs>
-			<generatedOn>2026-11-22T18:47:36.547Z</generatedOn>
+			<generatedOn>2026-11-23T04:36:26.445Z</generatedOn>
 		</info>
 	</metadata><rect width="100%" height="100%" fill="#0d1117"/><defs>
                 <symbol id="ghost-blinky-up" viewBox="0 0 20 20">
@@ -109,11 +109,11 @@
 			values="yellow;yellow;red;red;#80808064;#80808064;yellow;yellow;red;red;yellow;#80808064;#80808064;yellow;yellow"/>
 		<animateTransform attributeName="transform" type="translate" dur="17400ms" repeatCount="indefinite"
 			keyTimes="0;0.0116;0.0233;0.0349;0.0465;0.0581;0.0698;0.0814;0.093;0.1047;0.1163;0.1279;0.1395;0.1512;0.1628;0.1744;0.186;0.1977;0.2093;0.2209;0.2326;0.2442;0.2558;0.2674;0.2791;0.2907;0.3023;0.314;0.3256;0.3372;0.3488;0.3605;0.4765;0.4767;0.4884;0.5;0.5116;0.5233;0.5349;0.5465;0.5581;0.5698;0.5814;0.593;0.6047;0.6163;0.6279;0.6395;0.6512;0.6628;0.6744;0.686;0.6977;0.8137;0.814;0.8256;0.8372;0.8488;0.8605;0.8721;0.8837;0.8953;0.907;0.9186;0.9302;0.9419;0.9535;0.9651;0.9767;0.9884;1"
-			values="22,15;44,15;66,15;88,15;110,15;132,15;154,15;176,15;198,15;220,15;242,15;264,15;286,15;308,15;330,15;352,15;352,37;374,37;396,37;418,37;440,37;440,15;462,15;484,15;506,15;528,15;550,15;572,15;572,37;572,59;572,81;572,59;572,59;594,147;572,147;550,147;528,147;528,125;528,103;528,81;528,59;528,37;550,37;572,37;572,59;572,81;550,81;572,81;550,81;572,81;550,81;550,59;572,59;572,59;594,147;616,147;616,125;616,103;616,81;616,59;616,37;594,37;572,37;572,15;550,15;528,15;528,37;506,37;484,37;484,59;484,81"
+			values="22,15;44,15;66,15;88,15;110,15;132,15;154,15;176,15;198,15;220,15;242,15;264,15;286,15;308,15;330,15;352,15;352,37;374,37;396,37;418,37;440,37;440,15;462,15;484,15;506,15;528,15;550,15;572,15;572,37;572,59;550,59;572,59;572,59;594,147;572,147;550,147;528,147;528,125;528,103;528,81;528,59;528,37;550,37;572,37;572,59;572,81;550,81;572,81;550,81;572,81;550,81;550,59;572,59;572,59;594,147;616,147;616,125;616,103;616,81;616,59;616,37;594,37;572,37;572,15;550,15;528,15;528,37;506,37;484,37;484,59;484,81"
 			additive="sum"/>
 		<animateTransform attributeName="transform" type="rotate" dur="17400ms" repeatCount="indefinite"
-			keyTimes="0;0.1741;0.1744;0.186;0.2323;0.2326;0.2442;0.3137;0.314;0.3485;0.3488;0.4765;0.4767;0.5113;0.5116;0.5695;0.5698;0.5927;0.593;0.616;0.6163;0.6279;0.6395;0.6512;0.6628;0.6744;0.686;0.802;0.8023;0.814;0.8256;0.8834;0.8837;0.9067;0.907;0.9186;0.9416;0.9419;0.9535;0.9765;0.9767;1"
-			values="0 10 10;0 10 10;90 10 10;0 10 10;0 10 10;270 10 10;0 10 10;0 10 10;90 10 10;90 10 10;270 10 10;270 10 10;180 10 10;180 10 10;270 10 10;270 10 10;0 10 10;0 10 10;90 10 10;90 10 10;180 10 10;0 10 10;180 10 10;0 10 10;180 10 10;270 10 10;0 10 10;0 10 10;270 10 10;0 10 10;270 10 10;270 10 10;180 10 10;180 10 10;270 10 10;180 10 10;180 10 10;90 10 10;180 10 10;180 10 10;90 10 10;90 10 10"
+			keyTimes="0;0.1741;0.1744;0.186;0.2323;0.2326;0.2442;0.3137;0.314;0.3369;0.3372;0.3488;0.4648;0.4651;0.4767;0.5113;0.5116;0.5695;0.5698;0.5927;0.593;0.616;0.6163;0.6279;0.6395;0.6512;0.6628;0.6744;0.686;0.802;0.8023;0.814;0.8256;0.8834;0.8837;0.9067;0.907;0.9186;0.9416;0.9419;0.9535;0.9765;0.9767;1"
+			values="0 10 10;0 10 10;90 10 10;0 10 10;0 10 10;270 10 10;0 10 10;0 10 10;90 10 10;90 10 10;180 10 10;0 10 10;0 10 10;270 10 10;180 10 10;180 10 10;270 10 10;270 10 10;0 10 10;0 10 10;90 10 10;90 10 10;180 10 10;0 10 10;180 10 10;0 10 10;180 10 10;270 10 10;0 10 10;0 10 10;270 10 10;0 10 10;270 10 10;270 10 10;180 10 10;180 10 10;270 10 10;180 10 10;180 10 10;90 10 10;180 10 10;180 10 10;90 10 10;90 10 10"
 			calcMode="discrete"
 			additive="sum"/>
 		<animate attributeName="d" dur="0.5s" repeatCount="indefinite"
@@ -131,27 +131,22 @@
 			<animateTransform attributeName="transform" type="translate" 
 				dur="17400ms" repeatCount="indefinite"
 				keyTimes="0;0.0116;0.0233;0.0349;0.0465;0.0581;0.0698;0.0814;0.093;0.1047;0.1163;0.1279;0.1395;0.1512;0.1628;0.1744;0.186;0.1977;0.2093;0.2209;0.2326;0.2442;0.2558;0.2674;0.2791;0.2907;0.3023;0.314;0.3256;0.3372;0.3488;0.3605;0.4765;0.4767;0.4884;0.5;0.5116;0.5233;0.5349;0.5465;0.5581;0.5698;0.5814;0.593;0.6047;0.6163;0.6279;0.6395;0.6512;0.6628;0.6744;0.686;0.8137;0.814;0.8256;0.8372;0.8488;0.8605;0.8721;0.8837;0.8953;0.907;0.9186;0.9302;0.9419;0.9535;0.9651;0.9767;0.9884;1"
-				values="572,37;594,37;616,37;616,15;638,15;660,15;682,15;704,15;726,15;748,15;770,15;792,15;814,15;836,15;858,15;880,15;891,15;902,15;913,15;924,15;935,15;946,15;957,15;968,15;979,15;990,15;1001,15;1012,15;1023,15;1034,15;1034,26;1034,37;1034,37;572,37;594,37;616,37;627,37;638,37;649,37;660,37;671,37;682,37;682,48;682,59;671,59;660,59;660,48;660,37;671,37;682,37;682,48;682,59;682,59;572,37;594,37;616,37;616,15;638,15;660,15;682,15;704,15;726,15;748,15;770,15;792,15;814,15;792,15;770,15;748,15;726,15"
+				values="572,37;594,37;616,37;616,15;638,15;660,15;682,15;704,15;726,15;748,15;770,15;792,15;814,15;836,15;858,15;880,15;891,15;902,15;913,15;924,15;935,15;946,15;957,15;968,15;979,15;990,15;990,26;990,37;1001,37;1012,37;1023,37;1034,37;1034,37;572,37;594,37;616,37;627,37;638,37;649,37;660,37;671,37;682,37;682,48;682,59;671,59;660,59;649,59;638,59;638,48;638,37;627,37;616,37;616,37;572,37;594,37;616,37;616,15;638,15;660,15;682,15;704,15;726,15;748,15;770,15;792,15;814,15;792,15;770,15;748,15;726,15"
 				additive="replace"/><use href="#ghost-blinky-up" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
 					keyTimes="0.0000;0.0000;0.0116;0.0349;0.0465;0.4767;0.4884;0.8140;0.8256;0.8488;0.8605;1.0000"
 					values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden" />
-			</use><use href="#ghost-blinky-down" width="20" height="20" visibility="hidden">
-				<animate attributeName="visibility" 
-					dur="17400ms" repeatCount="indefinite"
-					keyTimes="0.0000;0.3605;0.4767;0.6860;0.8140;1.0000"
-					values="hidden;visible;hidden;visible;hidden;hidden" />
 			</use><use href="#ghost-blinky-left" width="20" height="20" visibility="visible">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
-					keyTimes="0.0000;0.0000;0.9651;1.0000"
-					values="visible;hidden;visible;visible" />
+					keyTimes="0.0000;0.0000;0.6860;0.8140;0.9651;1.0000"
+					values="visible;hidden;visible;hidden;visible;visible" />
 			</use><use href="#ghost-blinky-right" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
-					keyTimes="0.0000;0.0116;0.0349;0.0465;0.1860;0.4884;0.5116;0.8256;0.8488;0.8605;0.9651;1.0000"
-					values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden" />
+					keyTimes="0.0000;0.0116;0.0349;0.0465;0.1860;0.3605;0.4767;0.4884;0.5116;0.8256;0.8488;0.8605;0.9651;1.0000"
+					values="hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;visible;hidden;hidden" />
 			</use><use href="#ghost-scared" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
@@ -161,7 +156,7 @@
 			<animateTransform attributeName="transform" type="translate" 
 				dur="17400ms" repeatCount="indefinite"
 				keyTimes="0;0.1044;0.1047;0.1276;0.1279;0.1395;0.1512;0.1628;0.1744;0.186;0.1977;0.2093;0.2209;0.2326;0.2442;0.2558;0.2674;0.2791;0.2907;0.3023;0.314;0.3256;0.3372;0.3488;0.3605;0.4765;0.4767;0.5811;0.5814;0.6044;0.6047;0.6276;0.6279;0.6395;0.6512;0.6628;0.6744;0.686;0.8137;0.814;0.9183;0.9186;0.9416;0.9419;0.9535;0.9651;0.9767;0.9884;1"
-				values="550,81;550,81;572,59;572,59;572,37;594,37;616,37;638,37;660,37;660,48;660,59;660,70;660,81;660,92;660,103;660,114;660,125;660,136;660,147;649,147;638,147;638,136;638,125;649,125;660,125;660,125;550,81;550,81;572,59;572,59;572,81;572,81;561,81;572,81;561,81;572,81;572,70;572,59;572,59;550,81;550,81;572,59;572,59;572,37;594,37;572,37;550,37;528,37;506,37"
+				values="550,81;550,81;572,59;572,59;572,37;594,37;616,37;638,37;660,37;660,48;660,59;649,59;638,59;638,70;638,81;627,81;616,81;616,92;616,103;616,114;616,125;616,136;616,147;627,147;638,147;638,147;550,81;550,81;572,59;572,59;572,81;572,81;572,70;572,81;583,81;572,81;572,70;572,59;572,59;550,81;550,81;572,59;572,59;572,37;594,37;572,37;550,37;528,37;506,37"
 				additive="replace"/><use href="#ghost-inky-up" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
@@ -180,13 +175,13 @@
 			</use><use href="#ghost-eyes-up" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
-					keyTimes="0.0000;0.6047;0.6279;1.0000"
-					values="hidden;visible;hidden;hidden" />
-			</use><use href="#ghost-eyes-left" width="20" height="20" visibility="hidden">
+					keyTimes="0.0000;0.6047;0.6279;0.6395;0.6512;1.0000"
+					values="hidden;visible;hidden;visible;hidden;hidden" />
+			</use><use href="#ghost-eyes-right" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
-					keyTimes="0.0000;0.6395;0.6512;0.6628;0.6744;1.0000"
-					values="hidden;visible;hidden;visible;hidden;hidden" />
+					keyTimes="0.0000;0.6628;0.6744;1.0000"
+					values="hidden;visible;hidden;hidden" />
 			</use><use href="#ghost-scared" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
@@ -195,8 +190,8 @@
 			</use></g><g id="ghost2" transform="translate(0,0)">
 			<animateTransform attributeName="transform" type="translate" 
 				dur="17400ms" repeatCount="indefinite"
-				keyTimes="0;0.2206;0.2209;0.2326;0.2442;0.2558;0.2674;0.2791;0.2907;0.3023;0.314;0.3256;0.3372;0.3602;0.3605;0.4765;0.4767;0.6974;0.6977;0.8137;0.814;1"
-				values="572,81;572,81;572,59;583,59;594,59;594,70;594,81;583,81;572,81;572,70;572,59;583,59;572,81;572,81;572,59;572,59;572,81;572,81;572,59;572,59;572,81;572,81"
+				keyTimes="0;0.2206;0.2209;0.2326;0.2442;0.2558;0.2674;0.2791;0.2907;0.3023;0.314;0.3256;0.3372;0.3488;0.3605;0.4765;0.4767;0.6974;0.6977;0.8137;0.814;1"
+				values="572,81;572,81;572,59;583,59;594,59;594,70;594,81;583,81;572,81;561,81;550,81;550,70;550,59;572,81;572,59;572,59;572,81;572,81;572,59;572,59;572,81;572,81"
 				additive="replace"/><use href="#ghost-pinky-up" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
@@ -210,22 +205,17 @@
 			</use><use href="#ghost-eyes-up" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
-					keyTimes="0.0000;0.6977;0.8140;1.0000"
-					values="hidden;visible;hidden;hidden" />
+					keyTimes="0.0000;0.3488;0.3605;0.6977;0.8140;1.0000"
+					values="hidden;visible;hidden;visible;hidden;hidden" />
 			</use><use href="#ghost-eyes-down" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
 					keyTimes="0.0000;0.6163;0.6977;1.0000"
 					values="hidden;visible;hidden;hidden" />
-			</use><use href="#ghost-eyes-right" width="20" height="20" visibility="hidden">
-				<animate attributeName="visibility" 
-					dur="17400ms" repeatCount="indefinite"
-					keyTimes="0.0000;0.3372;0.3605;1.0000"
-					values="hidden;visible;hidden;hidden" />
 			</use><use href="#ghost-scared" width="20" height="20" visibility="hidden">
 				<animate attributeName="visibility" 
 					dur="17400ms" repeatCount="indefinite"
-					keyTimes="0.0000;0.1860;0.3372;0.5116;0.6163;1.0000"
+					keyTimes="0.0000;0.1860;0.3488;0.5116;0.6163;1.0000"
 					values="hidden;visible;hidden;visible;hidden;hidden" />
 			</use></g><g id="ghost3" transform="translate(0,0)">
 			<animateTransform attributeName="transform" type="translate" 
